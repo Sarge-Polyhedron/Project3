@@ -4,24 +4,166 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+	.menubar
+		&__menu
+			a
+				margin: 0 10px
+		&__search
+			&__input
+				width: 120px
+
+	.slick-next-custom2
+		right: 400px
+
+
+	.slick-prev-custom2
+		left: 400px
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+	.menubar__menu
+		display: none
 
+	.menubar__logo
+		margin-left: 40px
+
+	.mobile-btn
+		display: flex
+
+	.slider__single__wrap .s-header span
+		font-size: 48px
+		line-height: 1.2	
+
+	.slider__single__wrap p
+		font-size: 18px
+
+	.works__identity__single
+		&:last-child
+			margin-top: 40px
+
+	.slick-next-custom2
+		right: 260px
+
+
+	.slick-prev-custom2
+		left: 260px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
 
+	.section
+		padding: 60px 0 40px 0
+
+	.slider__single__wrap .s-header span
+		font-size: 30px
+	.slider__single__wrap .large-btn
+		width: 240px
+	.slider__single_2 > div .slider__single__wrap 
+		.s-header 
+			justify-content: center
+			span
+				text-align: center
+		p
+			align-self: center
+			text-align: center
+		.large-btn
+			align-self: center
+
+	.slider__single_3 > div .slider__single__wrap 
+		.s-header 
+			justify-content: center
+			span
+				text-align: center
+				padding: 15px 20px 15px 20px
+		p
+			align-self: center
+			text-align: center
+		.large-btn
+			align-self: center
+
+	
+	.slider__single_4 > div .slider__single__wrap 
+		.s-header 
+			justify-content: center
+			span
+				text-align: center
+				padding: 15px 20px 15px 20px
+		p
+			align-self: center
+			text-align: center
+		.large-btn
+			align-self: center
+
+	.title
+		font-size: 30px
+	.subtitle
+		font-size: 18px
+
+	.quality
+		&__items
+			margin-top: 30px
+		&__single
+			margin-top: 20px
+		&__icon
+			font-size: 64px
+			color: $accent
+		&__single-title
+			font-size: 24px
+			margin: 15px 0
+
+	.slick-next-custom2
+		right: 120px
+
+
+	.slick-prev-custom2
+		left: 120px
+
+	.footer__down
+		&__wrap
+			flex-direction: column
+		&__menu
+			margin-top: 15px
+			a
+				margin-left: 5px
+				&::before
+					left: -5px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	/**/
+		
+	.menubar
+		&__wrap
+			justify-content: end
+		&__logo
+			display: none
+		&__search
+	
+	.uppanel
+		&__contacts-phone
+			display: none
+		&__contacts-mail
+			display: none
+
+	.works__identity__single
+		&_desc-title
+			font-size: 16px
+
+	.slick-next-custom2
+		right: 40px
 
 
+	.slick-prev-custom2
+		left: 40px
+
+	.slick-next-custom, .slick-prev-custom
+		z-index: -10
+
+	.button_top
+		bottom: 10px
+		right: 10px
+
+	
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
